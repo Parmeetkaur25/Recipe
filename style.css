@@ -202,13 +202,11 @@ hr{
      padding: 20px;
      box-shadow: 0px 4px 12px rgba;
      margin: 40px;
-    transition: 0.3s ease;
-     
-}
+     transition: 0.3s ease;
      
 }
 
-.card1:hover:hover {
+.card1:hover: {
     transform: scale(1.05);
 }
     
