@@ -90,9 +90,6 @@ h1 {
     margin: 4px 0px 0px;
 }
 
-hr{
-    border: 0.0000001 solid #c3c3c3a2;
-}
 
 .photo {
     display: flex;
@@ -322,9 +319,6 @@ footer{
 }
 
 .footer-container {
-          /* display: flex; */
-          /* justify-content: space-between; */
-          /* flex-wrap: wrap; */
           color: #000000;
           text-align: center;
 }
