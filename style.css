@@ -96,7 +96,6 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
     margin: 20px 0;
     background-color: #f4f2f2;
 }
@@ -151,7 +150,6 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    flex-wrap: wrap;
     margin: 40px;
 }
 
@@ -172,27 +170,27 @@ h1 {
 }
 
 
+
 .card {
      background-color: #edecec;
      border-radius: 17px;
-     overflow: hidden;
      box-shadow: 0px 4px 10px rgba(0,0,0.1);
-     transition: transform 0.3 ease, box-shadow 0.3 ease;
+     transition: transform 1.5 ease, box-shadow 0.3 ease;
      cursor: pointer;
-     display:grid;
-    gap: 25px;
-    grid-template-columns: 1fr 1fr 1fr;
+     box-shadow: 0px 8px 20px rgba(0,0,0.2) ;
+     display: grid;
+     gap: 25px;
+     grid-template-columns: 1fr 1fr 1fr;
     
 }
 
-}
 
 .card img {
       width: 10%;
       height: 200px;
-      object-fit: cover;
-      display:inline-block;
+      display: inline-block;
       margin-left: 80px;
+      
 }
 
 .card1 {
@@ -200,28 +198,30 @@ h1 {
      background-color: #fff;  
      border-radius: 12px;
      padding: 20px;
-     box-shadow: 0px 4px 12px rgba;
+     box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
      margin: 40px;
      transition: 0.3s ease;
-    justify-content: center;
+     justify-content: center;
      
 }
 
-.card1:hover: {
+.card1:hover {
     transform: scale(1.05);
 }
-    
 
 .card1 img {
        width: 250px;
        height: 200px;
        object-fit: cover;
        border-radius: 10px;
+       
 }
 
-.card1 h1{
-    flex: 1;
+.card1 h2{
     margin: 0 0 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
 
 }
 
@@ -234,7 +234,6 @@ h1 {
 }
 
 .about .text {
-    flex: 1;
     margin-right: 20px;
 }
 
@@ -255,7 +254,6 @@ h1 {
 }
 
 .about-images {
-        flex: 1;
         display: flex;
         gap: 10px;
 }
@@ -280,46 +278,40 @@ h1 {
 }
 
 .icons i {
-  margin: 0 8px;
-  font-size: 20px;
-  cursor: pointer;
-  color: white;
+        margin: 0 8px;
+        font-size: 20px;
+        color: white;
 }
 
 .signup {
-  text-align: right;
+        text-align: right;
 }
 
 .signup .handwriting {
-  font-family: "Brush Script MT", cursive;
-  font-size: 22px;
-  margin-right: 5px;
-}
-
-.signup form {
-  margin-top: 10px;
+        font-family: "Brush Script MT", cursive;
+        font-size: 22px;
+        margin-right: 5px;
 }
 
 .signup input {
-  padding: 8px;
-  margin-right: 5px;
-  border: none;
-  border-radius: 4px;
+        padding: 8px;
+        margin-right: 5px;
+        border: none;
+        border-radius: 4px;
 }
 
 .signup button {
-  padding: 8px 15px;
-  border: none;
-  background: gold;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
+        padding: 8px 15px;
+        border: none;
+        background: gold;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
 }
 
 footer{
-     background:#fffdff;
-     padding: 40px 80px;
-     border-top: 1px solid #ddd;
+        background:#fffdff;
+        padding: 40px 80px;
 }
 
 .footer-container {
@@ -328,20 +320,18 @@ footer{
 }
 
 
-
-
 .footer-container h3 {
-      font-size: 14px;
-      text-transform: uppercase;
-      font-weight: bold;
-      margin-bottom: 15px;
-      text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
 }
 
 .footer-container ul{
-    list-style: none;
-    padding: 0;
-    text-align: center;
+        list-style: none;
+        padding: 0;
+        text-align: center;
 
 }
 
@@ -360,15 +350,15 @@ footer{
       text-transform: uppercase;
       font-weight: bold;
       margin-bottom: 15px;
-    text-align: center;
-    margin-top: 70px;
+      text-align: center;
+      margin-top: 70px;
 }
 
 
 .footer-column ul{
-    list-style: none;
-    padding: 0;
-    text-align: center;
+      list-style: none;
+      padding: 0;
+      text-align: center;
 
 }
 
@@ -393,19 +383,20 @@ footer{
       margin: 0 8px;
       width: 40px;
       height: 40px;
-      background: #67324c; /* purple color */
+      background: #67324c; 
       color: #fff;
       border-radius: 50%;
       line-height: 40px;
       text-align: center;
       font-size: 18px;
-      transition: 0.3s;
+      transition: transform 0.3s ease;
 }
 
 .footer-social a:hover {
       background: #444;
+      transform: scale(1.1);
     }
-    /* Bottom section */
+
     .footer-bottom {
       text-align: center;
       font-size: 13px;
