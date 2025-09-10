@@ -191,6 +191,8 @@ h1 {
       width: 10%;
       height: 200px;
       object-fit: cover;
+      display:inline-block;
+      margin-left: 80px;
 }
 
 .card1 {
@@ -201,6 +203,7 @@ h1 {
      box-shadow: 0px 4px 12px rgba;
      margin: 40px;
      transition: 0.3s ease;
+    justify-content: center;
      
 }
 
